@@ -1,0 +1,41 @@
+﻿* {margin:0px; padding:0px;text-decoration:none;}
+/*Reset Element*/
+a:hover{text-decoration:underline;}
+.clear{clear:both;}
+body{	font-family:Arial; color:#333333;	font-size:60.2%; padding:0; margin:0; background-color:white;}
+#wrapper{	width:100%;	margin:0px auto; _padding-bottom:0;min-width: 976px}
+#wrapper_inside{padding:0 7px; overflow:hidden;}
+/*---------Phần header----------*/
+#header2{_padding-top:2px;}
+#logo{	width:289px; height:122px;	background:url(Images/logo.png) no-repeat;	margin-left:10px;	}
+/*---------Phần Content----------*/
+#Content{	font-size:13px;	margin-top:10px;	text-align:center;}
+/*--Content1--*/
+#Content1{ height:auto;	font-size:13px;	}
+#Content11{width: 84.5%;	float:left;padding-left: 0.5%;}
+/*-------Phần tin tức, quảng cáo right-----------*/
+#Content12{	width:15%; float:left;	}
+.News-Right{    border:solid 1px #cacaca;margin-left:2px;	}
+.News-Right h1{	color:#f27b04;	font-size:15px;	line-height:28px;	background:#f5f5f5;	padding:0 0 0 10px; margin-bottom:5px;	}
+.News-Right h1 a{	float:right; color:#003399;	padding-right:10px;	font-size:13px;	font-style:normal;	}
+.News-Right ul{padding:5px 5px 5px 10px;	}
+.News-Right ul li{line-height:1.2em;list-style:none; border-bottom:1px dotted gray;	}
+.News-Right ul li a{	color:#666666;	font-size:12px;	text-decoration:none;	}
+.News-Right ul li a{color:#599FD3; display:block; line-height:30px;}
+.News-Right ul li a:hover{	text-decoration:underline;	color:#f27b04;	}
+.News-Right ul li:last-child{ border: none;}
+/*---------Phần footer----------*/
+#footer{	border-top:solid 2px #f27b04;	font-size:12px;	margin-top:10px;}
+#footer p{	padding:10px;	color:#666666;	}	
+.displayNone{display:none;}
+.textformfield, .textformfield label{ display: block;overflow: hidden;}
+.textformfield label{ padding: 5px 0;}
+span.lbltxtform{ width: 32%;text-align: right;}
+.textformfield span.lbltxtform, span.texteditor{ float: left;display: inline-block;}
+span.texteditor{ width: 63%;}
+span.texteditor input{ width: 50%;}
+.textformfield{  border: 1px solid #CACACA;}
+.textformfield h1{background: none repeat scroll 0 0 #F5F5F5;    color: #F27B04;    font-size: 15px;    line-height: 28px;    margin-bottom: 5px;    padding: 0 0 0 10px;}
+label.lblRED{ color: red;font-style:italic;font-size: 11px;}
+.ckStyle{ margin: 0 auto;}
+.rowstyle{}

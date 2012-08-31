@@ -1,0 +1,10 @@
+E:\project\LicSystem\LicSystem.Core\bin\Debug\LicSystem.Core.dll
+E:\project\LicSystem\LicSystem.Core\bin\Debug\LicSystem.Core.pdb
+E:\project\LicSystem\LicSystem.Core\obj\Debug\ResolveAssemblyReference.cache
+E:\project\LicSystem\LicSystem.Core\obj\Debug\LicSystem.Core.dll
+E:\project\LicSystem\LicSystem.Core\obj\Debug\LicSystem.Core.pdb
+C:\inetpub\wwwroot\LicSystem\LicSystem.Core\bin\Debug\LicSystem.Core.dll
+C:\inetpub\wwwroot\LicSystem\LicSystem.Core\bin\Debug\LicSystem.Core.pdb
+C:\inetpub\wwwroot\LicSystem\LicSystem.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\LicSystem\LicSystem.Core\obj\Debug\LicSystem.Core.dll
+C:\inetpub\wwwroot\LicSystem\LicSystem.Core\obj\Debug\LicSystem.Core.pdb

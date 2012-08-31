@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A2C82DAD-DE68-4008-9715-13A749964C4C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>G9.Impl</RootNamespace>
+    <AssemblyName>LicSystem.Impl</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminImpl.cs" />
+    <Compile Include="CategoryTypeImpl.cs" />
+    <Compile Include="ContactImpl.cs" />
+    <Compile Include="CusCommentImpl.cs" />
+    <Compile Include="CustomerImpl.cs" />
+    <Compile Include="NewsImpl.cs" />
+    <Compile Include="ProductDetailImpl.cs" />
+    <Compile Include="ProductsImpl.cs" />
+    <Compile Include="ProductTypeImpl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleImpl.cs" />
+    <Compile Include="SupportImpl.cs" />
+    <Compile Include="UserImpl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\G9.Core\G9.Core.csproj">
+      <Project>{99753847-AA3B-4665-9640-A3AC78136DB8}</Project>
+      <Name>G9.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\G9.Entity\G9.Entity.csproj">
+      <Project>{940EA160-AB84-410C-817B-4B35D247ADDF}</Project>
+      <Name>G9.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\G9.Service\G9.Service.csproj">
+      <Project>{3085E0FC-AA4A-409E-B04B-B291B709B7D4}</Project>
+      <Name>G9.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sercurity\Sercurity.csproj">
+      <Project>{E8733A02-F114-4244-A15B-6004B8300D8D}</Project>
+      <Name>Sercurity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

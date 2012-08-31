@@ -1,0 +1,14 @@
+E:\project\LicSystem\LicSystem.Entity\bin\Debug\LicSystem.Entity.dll
+E:\project\LicSystem\LicSystem.Entity\bin\Debug\LicSystem.Entity.pdb
+E:\project\LicSystem\LicSystem.Entity\bin\Debug\LicSystem.Core.dll
+E:\project\LicSystem\LicSystem.Entity\bin\Debug\LicSystem.Core.pdb
+E:\project\LicSystem\LicSystem.Entity\obj\Debug\ResolveAssemblyReference.cache
+E:\project\LicSystem\LicSystem.Entity\obj\Debug\LicSystem.Entity.dll
+E:\project\LicSystem\LicSystem.Entity\obj\Debug\LicSystem.Entity.pdb
+C:\inetpub\wwwroot\LicSystem\LicSystem.Entity\bin\Debug\LicSystem.Entity.dll
+C:\inetpub\wwwroot\LicSystem\LicSystem.Entity\bin\Debug\LicSystem.Entity.pdb
+C:\inetpub\wwwroot\LicSystem\LicSystem.Entity\bin\Debug\LicSystem.Core.dll
+C:\inetpub\wwwroot\LicSystem\LicSystem.Entity\bin\Debug\LicSystem.Core.pdb
+C:\inetpub\wwwroot\LicSystem\LicSystem.Entity\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\LicSystem\LicSystem.Entity\obj\Debug\LicSystem.Entity.dll
+C:\inetpub\wwwroot\LicSystem\LicSystem.Entity\obj\Debug\LicSystem.Entity.pdb

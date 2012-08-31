@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="hisoft.Default" %>
+
+<%@ Register Src="UserControl/Banner.ascx" TagName="Banner" TagPrefix="uc1" %>
+<%@ Register Src="UserControl/Menu.ascx" TagName="Menu" TagPrefix="uc2" %>
+<%@ Register Src="UserControl/Footer.ascx" TagName="Footer" TagPrefix="uc3" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="CSS/styles.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/Banner.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/Images/icon.ico" type="image/x-icon" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="body_page">
+        <uc1:Banner ID="Banner1" runat="server" />
+        <uc2:Menu ID="Menu1" runat="server" />
+        <div class="bg-main">
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div style="CLEAR: both; height:15px;display: block"></div>
+        <uc3:Footer ID="Footer1" runat="server" />
+    </div>
+</body>
+</html>

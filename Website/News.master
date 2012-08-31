@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true"
+    CodeBehind="News.master.cs" Inherits="hisoft.News" %>
+
+<%@ Register src="UserControl/Home/LienHe.ascx" tagname="LienHe" tagprefix="uc2" %>
+<%@ Register TagPrefix="uc5" TagName="hinhanh" Src="~/UserControl/Home/HinhAnh-HoatDong.ascx" %>
+<%@ Register TagPrefix="uc6" TagName="visited" Src="~/UserControl/Home/Visited.ascx" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div id="noidung">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderNews" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="DivRight">
+        <div class="HelpInfo">
+            <uc2:LienHe ID="LienHe1" runat="server" />
+        </div>
+        <div class="ProductAndVisited" style="padding-top: 10px">
+            <div class="ProductVideoPrevewBox">
+                <uc5:hinhanh ID="HinhAnh1" runat="server" />
+            </div>
+            <div class="VisitedBox">
+                <div class="VisitedTitle">
+                    Thống kê truy cập</div>
+                <div class="VisitedDetail">
+                    <uc6:visited ID="Visited1" runat="server" />
+                </div>
+            </div>
+        </div>
+    </div>
+</asp:Content>

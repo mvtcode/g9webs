@@ -1,0 +1,104 @@
+
+.main_div_class
+{
+    border-right: #73A1D0 1px solid;
+    border-top: #73A1D0 1px solid;
+    background: #f1f3f5;
+    padding-bottom: 15px;
+    margin-left: auto;
+    border-left: #73A1D0 1px solid;
+    width: 98%;
+    margin-right: auto;
+    border-bottom: #73A1D0 1px solid;
+}
+.main_boder_div_class
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+}
+.boder_div_class
+{
+    border-right: #cccccc 1px solid;
+    padding-right: 10px;
+    border-top: #cccccc 1px solid;
+    padding-left: 10px;
+    background: #e9ecef;
+    padding-bottom: 10px;
+    border-left: #cccccc 1px solid;
+    padding-top: 15px;
+    border-bottom: #cccccc 1px solid; /*Css3 Bo goc*/
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+.header_div_class
+{
+    height: 25px;
+    background: #73A1D0;
+    font-size: 14;
+    color: #FFFFFF;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+.ad_class
+{
+    height: 20px;
+    background-image: url('../Images/leftTitle_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom,right;
+}
+.homePageHeader
+{
+    background-image: url(headerGRADIENT_Tall.gif);
+    background-repeat: repeat-x;
+    background-position: left top;
+}
+.table_menu a
+{
+    text-decoration: none;
+}
+.td_menu_duoi
+{
+    border: 1px;
+    border-color: -moz-border-radius:20px;
+    -webkit-border-radius: 20px;
+}
+
+.TD_Menu
+{
+    background: #f1f3f5;   
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: none;
+    border-top-width: medium;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-color: #73A1D0;
+}
+
+
+
+.TH_Menu
+{
+    border-top-style: none;
+    border-top-width: medium;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-color: #73A1D0;
+}
+
+
+.td_menu_duoi
+{
+    border-right: #73A1D0 0px none;
+    border-top: #73A1D0 0px none;
+    border-left: #73A1D0 0px none;
+    border-bottom: #cccccc 1px solid;
+    border-color: #73A1D0;
+    -moz-border-radius: 20px;
+}

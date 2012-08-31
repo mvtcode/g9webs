@@ -1,0 +1,123 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master_default.master.cs" Inherits="Website.admin.master_default" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+        <title>..:G9 Admin panel:..</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />    
+    
+    </head>
+
+    <body style="margin: 0px 0px 0px 0px">
+        <form id="form1" runat="server" enctype="multipart/form-data" method="post">
+            <div style="text-align: center">
+                <asp:ScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization="true"
+                                   EnableScriptLocalization="false">
+                </asp:ScriptManager>
+                <div id="container">
+                    <div id="header">
+                        <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                            <tr valign="top">
+                                <td>
+                                    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                                        <tr valign="top">
+                                            <td>
+                                                <table cellspacing="0" cellpadding="0" width="100%" border="0" style="text-align: center">
+                                                    <tr valign="middle" style="height: 100px; text-align: left; vertical-align: middle">
+                                                        <td style="text-align:center">
+                                                            <a href="/Default.aspx">
+                                                                <img alt="" src="../Images/Logo.png" style="height: 100px; width: auto;" border="0" />
+                                                                </a>                                                        
+                                                        </td>
+                                                        <td style="font-family: Arial; font-size: 2.0em; color: #0860FF; text-align: left" valign="bottom">
+                                                            Admin panel
+                                                        </td>
+                                                        <td style="width: 50%">&nbsp;</td>
+                                                    </tr>                                            
+                                                </table>
+                                            </td>                                    
+                                        </tr>                                
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr valign="top" class="homePageHeader">
+                                <td>
+                                    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                                        <tr valign="top">
+                                            <td>
+                                                <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                                                    <tr valign="bottom">
+                                                        <td>
+                                                        </td>
+                                                        <td style="width: 100%;">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2" valign="bottom" style="height: 33px;">
+                                                            <table cellspacing="0" cellpadding="0" border="0">
+                                                                <tr>
+                                                                    <asp:Literal ID="ltlMenu" runat="server"></asp:Literal>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td valign="top" style="width: 180px">
+                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td colspan="2" style="height: 3px">
+                                                        </td>
+                                                    </tr>
+                                                    <tr style="height: 20px;" class="title_tin">
+                                                        <td><img alt="" id="img4" src="<%#UrlRoot%>images/dot.gif" />&nbsp;Xin chào:<asp:Literal
+                                                                                                                                          ID="ltlUserID" runat="server"></asp:Literal></td>
+                                                    </tr>
+                                                    <tr style="height: 20px;">
+                                                        <td><img alt="" id="img1" src="<%#UrlRoot%>images/dot.gif" />&nbsp;<a id="hlChangePwd"
+                                                                                                                                runat="server" class="helpHyperLink"></a>&nbsp;<span class="title_tin">|</span>&nbsp;<a
+                                                                                                                                                                                                                         id="hlSignOut" runat="server" class="helpHyperLink"></a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table style="width: 100%; height: 31px" cellspacing="0" cellpadding="0" border="0px">
+                                        <tr>
+                                            <td style="width: 24px;" valign="top" align="right">
+                                                <img alt="" style="border: 0px" src="images/goc.gif" />
+                                            </td>
+                                            <td align="left" style="background-image: url(images/canhtren.gif)">
+                                                &nbsp;
+                                            </td>
+                                            <td style="width: 24px;" valign="top" align="right">
+                                                <img alt="" style="border: 0px" src="images/goc2.gif" />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div id="content_panel" style="text-align: center">                      
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder_Main" runat="server">
+                    </asp:ContentPlaceHolder>           
+                </div>
+                <div id="footer">
+                    <div style="float: left;">
+                        <img alt="" style="border: 0px" src="images/goc1.gif" /></div>
+                    <div style="float: right;">
+                        <img alt="" style="border: 0px" src="images/goc3.gif" /></div>
+                    <div style="float: left; width: 100%; text-align: center; background-color: #3b78ae; padding-bottom: 15px; padding-top: 15px; color: #ffffff; font: 9pt, Arial;">
+                        Admin panel G9                     </div>
+                </div>        
+            </div>
+        </form>
+    </body>
+</html>

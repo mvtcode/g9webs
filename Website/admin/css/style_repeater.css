@@ -1,0 +1,29 @@
+
+.header
+{
+    background-color: #67AAD3;
+    font: bold 12px arial;
+    color: #ffcc00;
+    text-decoration: none;
+    height: 22px;
+}
+.alter
+{
+    background-color: #CBE6ED;
+    height: 20px;
+    border-top: #b3c5e1 1px solid;
+    border-left: #b3c5e1 1px solid;
+    border-bottom: #b3c5e1 1px solid;
+    font: normal 8pt arial;
+    text-decoration: none;
+}
+.item
+{
+    background-color: #ffffff;
+    height: 20px;
+    border-top: #b3c5e1 1px solid;
+    border-left: #b3c5e1 1px solid;
+    border-bottom: #b3c5e1 1px solid;
+    font: normal 8pt arial;
+    text-decoration: none;
+}
